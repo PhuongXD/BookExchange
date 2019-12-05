@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class IndexForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IndexForm));
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -99,14 +99,14 @@
             this.grdBook.Location = new System.Drawing.Point(0, 63);
             this.grdBook.Name = "grdBook";
             this.grdBook.ReadOnly = true;
-            this.grdBook.Size = new System.Drawing.Size(597, 254);
+            this.grdBook.Size = new System.Drawing.Size(597, 265);
             this.grdBook.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 313);
+            this.ClientSize = new System.Drawing.Size(597, 329);
             this.Controls.Add(this.grdBook);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSearch);
