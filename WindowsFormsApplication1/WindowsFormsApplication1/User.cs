@@ -12,15 +12,18 @@ namespace WindowsFormsApplication1
     using System;
     using System.Collections.Generic;
     
-    public partial class Book
+    public partial class User
     {
-        public int id { get; set; }
-        public string NameBook { get; set; }
-        public string Author { get; set; }
-        public string NameUser { get; set; }
-        public string Topic { get; set; }
-        public string TypeExchange { get; set; }
+        public User()
+        {
+            this.Books = new HashSet<Book>();
+        }
     
-        public virtual User User { get; set; }
+        public string NameUser { get; set; }
+        public Nullable<System.DateTime> Birthday { get; set; }
+        public string Gmail { get; set; }
+        public string Gender { get; set; }
+    
+        public virtual ICollection<Book> Books { get; set; }
     }
 }

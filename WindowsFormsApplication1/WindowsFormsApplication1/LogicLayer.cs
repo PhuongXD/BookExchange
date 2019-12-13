@@ -10,13 +10,13 @@ namespace WindowsFormsApplication1
     {
         public Book[] GetBooks()
         {
-            var db = new bookEntities();
+            var db = new bookEntitiess();
             return db.Books.ToArray();
         }
 
         public Book[] GetBook(int id)
         {
-            var db = new bookEntities();
+            var db = new bookEntitiess();
             return db.Books.Find(id);
         }
     }
