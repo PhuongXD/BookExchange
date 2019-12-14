@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    class LogicLayer
+    public class LogicLayer
     {
         public Book[] GetBooks()
         {
@@ -14,7 +14,7 @@ namespace WindowsFormsApplication1
             return db.Books.ToArray();
         }
 
-        public Book[] GetBook(int id)
+        public Book GetBook(int id)
         {
             var db = new bookEntitiess();
             return db.Books.Find(id);
