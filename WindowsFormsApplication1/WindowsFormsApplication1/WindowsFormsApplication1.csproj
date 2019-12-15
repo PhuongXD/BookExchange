@@ -80,7 +80,6 @@
     <Compile Include="Book.cs">
       <DependentUpon>ModelBE.tt</DependentUpon>
     </Compile>
-    <Compile Include="BookManagement.cs" />
     <Compile Include="IndexForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,7 +110,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpdateBook.cs" />
     <Compile Include="UpdateBookForm.cs">
       <SubType>Form</SubType>
     </Compile>

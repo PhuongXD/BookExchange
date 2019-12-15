@@ -23,7 +23,7 @@ namespace WindowsFormsApplication1
             return db.Books.Find(id);
         }
 
-        public void CreateStudent(string namebook, string author, string nameuser, string topic, string type, int id)
+        public void AddBook(string namebook, string author, string nameuser, string topic, string type)
         {
             var book = new Book();
             book.NameBook = namebook;
@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
             book.NameUser= nameuser;
             book.Topic = topic;
             book.TypeExchange = type;
-            book.id = id;
+            //book.id = id;
 
             var db = new bookEntities();
             db.Books.Add(book);
@@ -65,6 +65,5 @@ namespace WindowsFormsApplication1
             var db = new bookEntities();
             return db.Users.ToArray();
         }
-
     }
 }

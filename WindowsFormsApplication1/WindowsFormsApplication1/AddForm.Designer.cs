@@ -33,13 +33,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtNamebook = new System.Windows.Forms.TextBox();
+            this.txtNameuser = new System.Windows.Forms.TextBox();
+            this.txtAuthor = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.cbTopic = new System.Windows.Forms.ComboBox();
+            this.cbType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -87,55 +87,35 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Type Exchange";
             // 
-            // textBox1
+            // txtNamebook
             // 
-            this.textBox1.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(152, 28);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(376, 27);
-            this.textBox1.TabIndex = 5;
+            this.txtNamebook.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtNamebook.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNamebook.Location = new System.Drawing.Point(152, 28);
+            this.txtNamebook.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNamebook.Name = "txtNamebook";
+            this.txtNamebook.Size = new System.Drawing.Size(376, 27);
+            this.txtNamebook.TabIndex = 5;
             // 
-            // textBox2
+            // txtNameuser
             // 
-            this.textBox2.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox2.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(152, 248);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(376, 27);
-            this.textBox2.TabIndex = 6;
+            this.txtNameuser.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtNameuser.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNameuser.Location = new System.Drawing.Point(152, 170);
+            this.txtNameuser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNameuser.Name = "txtNameuser";
+            this.txtNameuser.Size = new System.Drawing.Size(376, 27);
+            this.txtNameuser.TabIndex = 8;
             // 
-            // textBox3
+            // txtAuthor
             // 
-            this.textBox3.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox3.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(152, 326);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(376, 27);
-            this.textBox3.TabIndex = 7;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox4.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(152, 170);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(376, 27);
-            this.textBox4.TabIndex = 8;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.AliceBlue;
-            this.textBox5.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(152, 98);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(376, 27);
-            this.textBox5.TabIndex = 9;
+            this.txtAuthor.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtAuthor.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuthor.Location = new System.Drawing.Point(152, 98);
+            this.txtAuthor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAuthor.Name = "txtAuthor";
+            this.txtAuthor.Size = new System.Drawing.Size(376, 27);
+            this.txtAuthor.TabIndex = 9;
             // 
             // btnSave
             // 
@@ -163,6 +143,22 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
+            // cbTopic
+            // 
+            this.cbTopic.FormattingEnabled = true;
+            this.cbTopic.Location = new System.Drawing.Point(152, 248);
+            this.cbTopic.Name = "cbTopic";
+            this.cbTopic.Size = new System.Drawing.Size(242, 30);
+            this.cbTopic.TabIndex = 12;
+            // 
+            // cbType
+            // 
+            this.cbType.FormattingEnabled = true;
+            this.cbType.Location = new System.Drawing.Point(152, 326);
+            this.cbType.Name = "cbType";
+            this.cbType.Size = new System.Drawing.Size(187, 30);
+            this.cbType.TabIndex = 13;
+            // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
@@ -171,13 +167,13 @@
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.tumblr_ofm3pzxPN81t6limbo2_540;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(560, 444);
+            this.Controls.Add(this.cbType);
+            this.Controls.Add(this.cbTopic);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAuthor);
+            this.Controls.Add(this.txtNameuser);
+            this.Controls.Add(this.txtNamebook);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -201,12 +197,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtNamebook;
+        private System.Windows.Forms.TextBox txtNameuser;
+        private System.Windows.Forms.TextBox txtAuthor;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.ComboBox cbTopic;
+        private System.Windows.Forms.ComboBox cbType;
     }
 }
