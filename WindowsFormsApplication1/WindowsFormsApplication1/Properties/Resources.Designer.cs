@@ -63,9 +63,79 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4e9d3798527f4a699a44a8c7b8575da9 {
+            get {
+                object obj = ResourceManager.GetObject("4e9d3798527f4a699a44a8c7b8575da9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _829e7b05b0a00bad78e6b3818ac1fd91 {
+            get {
+                object obj = ResourceManager.GetObject("829e7b05b0a00bad78e6b3818ac1fd91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a594107270f89a7fcb2aababaa05b7d2 {
+            get {
+                object obj = ResourceManager.GetObject("a594107270f89a7fcb2aababaa05b7d2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap b18c90d73e9af17b4380e251c3f42f36 {
+            get {
+                object obj = ResourceManager.GetObject("b18c90d73e9af17b4380e251c3f42f36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Capture {
             get {
                 object obj = ResourceManager.GetObject("Capture", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jjjjjjjjjjjj {
+            get {
+                object obj = ResourceManager.GetObject("jjjjjjjjjjjj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tumblr_ofm3pzxPN81t6limbo2_540 {
+            get {
+                object obj = ResourceManager.GetObject("tumblr_ofm3pzxPN81t6limbo2_540", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tumblr_oynn4lXaRS1wg5ykso1_540 {
+            get {
+                object obj = ResourceManager.GetObject("tumblr_oynn4lXaRS1wg5ykso1_540", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

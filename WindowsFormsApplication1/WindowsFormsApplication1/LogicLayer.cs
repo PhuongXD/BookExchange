@@ -13,13 +13,13 @@ namespace WindowsFormsApplication1
     {
         public Book[] GetBooks()
         {
-            var db = new bookEntities2();
+            var db = new bookEntities();
             return db.Books.ToArray();
         }
 
         public Book GetBook(int id)
         {
-            var db = new bookEntities2();
+            var db = new bookEntities();
             return db.Books.Find(id);
         }
 
@@ -33,14 +33,14 @@ namespace WindowsFormsApplication1
             book.TypeExchange = type;
             book.id = id;
 
-            var db = new bookEntities2();
+            var db = new bookEntities();
             db.Books.Add(book);
             db.SaveChanges();
         }
         public void UpdateBook(int id, string namebook, string author, string nameuser, string 
             topic, string type)
         {
-            var db = new bookEntities2();
+            var db = new bookEntities();
             var book = db.Books.Find(id);
 
             book.NameBook = namebook;
@@ -48,12 +48,12 @@ namespace WindowsFormsApplication1
             book.TypeExchange = type;
             book.id = id;
 
-            db.Entry(book).State = System.Data.EntityState.Modified; 
+            db.Entry(book).State = EntityState.Modified; 
             db.SaveChanges();
         }
         public void DeleteBook(int id)
         {
-            var db = new bookEntities2();
+            var db = new bookEntities();
             var book = db.Books.Find(id);
 
             db.Books.Remove(book);
@@ -62,7 +62,7 @@ namespace WindowsFormsApplication1
 
         public User[] GetClasses()
         {
-            var db = new bookEntities2();
+            var db = new bookEntities();
             return db.Users.ToArray();
         }
 
