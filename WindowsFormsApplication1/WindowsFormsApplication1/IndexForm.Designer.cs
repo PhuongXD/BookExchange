@@ -66,7 +66,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(796, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(847, 28);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,14 +97,14 @@
             this.grdBook.Margin = new System.Windows.Forms.Padding(4);
             this.grdBook.Name = "grdBook";
             this.grdBook.ReadOnly = true;
-            this.grdBook.Size = new System.Drawing.Size(796, 326);
+            this.grdBook.Size = new System.Drawing.Size(847, 326);
             this.grdBook.TabIndex = 5;
             // 
             // IndexForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 405);
+            this.ClientSize = new System.Drawing.Size(847, 405);
             this.Controls.Add(this.grdBook);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSearch);
