@@ -18,16 +18,32 @@ namespace WindowsFormsApplication1
             InitializeComponent();
             this.Business=new LogicLayer();
             this.Load+=IndexForm_Load;
+            this.btnManagement.Click += btnManagement_Click;
+            this.btnSearch.Click += btnSearch_Click;
+        }
+
+        void btnSearch_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        void btnManagement_Click(object sender, EventArgs e)
+        {
+            var managementForm = new ManagementForm();
+            managementForm.ShowDialog();
+            this.LoadAllBook();
+
         }
 
         void IndexForm_Load(object sender, EventArgs e)
         {
             this.LoadAllBook();         
         }
-        public void LoadAllBook()
+        private void LoadAllBook()
         {
             var book = this.Business.GetBooks();
             this.grdBook.DataSource = book;
+
         }
     }
 }

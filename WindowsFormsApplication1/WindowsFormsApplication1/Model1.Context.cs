@@ -13,10 +13,10 @@ namespace WindowsFormsApplication1
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class bookEntitiess : DbContext
+    public partial class bookEntities2 : DbContext
     {
-        public bookEntitiess()
-            : base("name=bookEntitiess")
+        public bookEntities2()
+            : base("name=bookEntities2")
         {
         }
     
