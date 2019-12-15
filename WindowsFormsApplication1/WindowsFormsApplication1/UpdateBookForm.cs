@@ -21,6 +21,12 @@ namespace WindowsFormsApplication1
             this.Business = new LogicLayer();
             this.Load += UpdateBookForm_Load;
             this.btnSave.Click += btnSave_Click;
+            this.btnCancel.Click += btnCancel_Click;
+        }
+
+        void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         void btnSave_Click(object sender, EventArgs e)
@@ -29,7 +35,7 @@ namespace WindowsFormsApplication1
             var author = this.txtAuthor.Text;
             var topic = this.txtTopic.Text;
             var type = this.txtType.Text;
-            //this.Business.UpdateBook(this.BookId, namebook, author, topic, type);
+            this.Business.UpdateBook(this.BookId, namebook, author, topic, type);
             MessageBox.Show("Update student successfuly");
             this.Close();
 

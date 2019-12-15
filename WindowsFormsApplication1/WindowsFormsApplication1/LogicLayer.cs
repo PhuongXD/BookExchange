@@ -37,7 +37,7 @@ namespace WindowsFormsApplication1
             db.Books.Add(book);
             db.SaveChanges();
         }
-        public void UpdateBook(int id, string namebook, string author, string nameuser, string 
+        public void UpdateBook(int id, string namebook, string author, string 
             topic, string type)
         {
             var db = new bookEntities();
@@ -46,7 +46,6 @@ namespace WindowsFormsApplication1
             book.NameBook = namebook;
             book.Author = author;
             book.TypeExchange = type;
-            book.id = id;
 
             db.Entry(book).State = EntityState.Modified; 
             db.SaveChanges();

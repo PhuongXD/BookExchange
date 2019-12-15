@@ -71,7 +71,7 @@
             // txtAuthor
             // 
             this.txtAuthor.BackColor = System.Drawing.Color.AliceBlue;
-            this.txtAuthor.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuthor.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAuthor.Location = new System.Drawing.Point(164, 95);
             this.txtAuthor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAuthor.Name = "txtAuthor";
@@ -82,7 +82,7 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.AliceBlue;
             this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(164, 173);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
@@ -92,7 +92,7 @@
             // txtType
             // 
             this.txtType.BackColor = System.Drawing.Color.AliceBlue;
-            this.txtType.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtType.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtType.Location = new System.Drawing.Point(164, 337);
             this.txtType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtType.Name = "txtType";
@@ -102,7 +102,7 @@
             // txtTopic
             // 
             this.txtTopic.BackColor = System.Drawing.Color.AliceBlue;
-            this.txtTopic.Font = new System.Drawing.Font("Cambria Math", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTopic.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTopic.Location = new System.Drawing.Point(164, 255);
             this.txtTopic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTopic.Name = "txtTopic";

@@ -38,8 +38,8 @@
             this.txtAuthor = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.cbTopic = new System.Windows.Forms.ComboBox();
-            this.cbType = new System.Windows.Forms.ComboBox();
+            this.txtType = new System.Windows.Forms.TextBox();
+            this.txtTopic = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -143,21 +143,25 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // cbTopic
+            // txtType
             // 
-            this.cbTopic.FormattingEnabled = true;
-            this.cbTopic.Location = new System.Drawing.Point(152, 248);
-            this.cbTopic.Name = "cbTopic";
-            this.cbTopic.Size = new System.Drawing.Size(242, 30);
-            this.cbTopic.TabIndex = 12;
+            this.txtType.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtType.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtType.Location = new System.Drawing.Point(152, 329);
+            this.txtType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtType.Name = "txtType";
+            this.txtType.Size = new System.Drawing.Size(376, 27);
+            this.txtType.TabIndex = 14;
             // 
-            // cbType
+            // txtTopic
             // 
-            this.cbType.FormattingEnabled = true;
-            this.cbType.Location = new System.Drawing.Point(152, 326);
-            this.cbType.Name = "cbType";
-            this.cbType.Size = new System.Drawing.Size(187, 30);
-            this.cbType.TabIndex = 13;
+            this.txtTopic.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtTopic.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTopic.Location = new System.Drawing.Point(152, 251);
+            this.txtTopic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTopic.Name = "txtTopic";
+            this.txtTopic.Size = new System.Drawing.Size(376, 27);
+            this.txtTopic.TabIndex = 15;
             // 
             // AddForm
             // 
@@ -167,8 +171,8 @@
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.tumblr_ofm3pzxPN81t6limbo2_540;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(560, 444);
-            this.Controls.Add(this.cbType);
-            this.Controls.Add(this.cbTopic);
+            this.Controls.Add(this.txtTopic);
+            this.Controls.Add(this.txtType);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtAuthor);
@@ -202,7 +206,7 @@
         private System.Windows.Forms.TextBox txtAuthor;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.ComboBox cbTopic;
-        private System.Windows.Forms.ComboBox cbType;
+        private System.Windows.Forms.TextBox txtType;
+        private System.Windows.Forms.TextBox txtTopic;
     }
 }
