@@ -33,8 +33,8 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnAdd = new System.Windows.Forms.ToolStripMenuItem();
-            this.grdBook = new System.Windows.Forms.DataGridView();
             this.btnDelete = new System.Windows.Forms.ToolStripMenuItem();
+            this.grdBook = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
@@ -52,16 +52,21 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(728, 61);
+            this.btnSearch.BackColor = System.Drawing.Color.Gold;
+            this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btnSearch.Location = new System.Drawing.Point(723, 53);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(93, 28);
+            this.btnSearch.Size = new System.Drawing.Size(94, 44);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Pink;
+            this.menuStrip1.Font = new System.Drawing.Font("Showcard Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnAdd,
@@ -69,34 +74,38 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(847, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(847, 26);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // btnAdd
             // 
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(87, 24);
+            this.btnAdd.Size = new System.Drawing.Size(97, 22);
             this.btnAdd.Text = "Add Book";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 22);
+            this.btnDelete.Text = "Delete";
             // 
             // grdBook
             // 
             this.grdBook.AllowUserToAddRows = false;
             this.grdBook.AllowUserToDeleteRows = false;
+            this.grdBook.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.grdBook.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grdBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdBook.Location = new System.Drawing.Point(0, 132);
+            this.grdBook.Location = new System.Drawing.Point(0, 197);
             this.grdBook.Margin = new System.Windows.Forms.Padding(4);
             this.grdBook.Name = "grdBook";
             this.grdBook.ReadOnly = true;
             this.grdBook.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grdBook.Size = new System.Drawing.Size(847, 204);
             this.grdBook.TabIndex = 5;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(65, 24);
-            this.btnDelete.Text = "Delete";
             // 
             // pictureBox1
             // 
@@ -113,18 +122,24 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(728, 344);
+            this.btnBack.BackColor = System.Drawing.Color.Plum;
+            this.btnBack.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.Maroon;
+            this.btnBack.Location = new System.Drawing.Point(13, 153);
             this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(106, 36);
             this.btnBack.TabIndex = 6;
             this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             // 
             // IndexForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.jjjjjjjjjjjj;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(847, 405);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.grdBook);
@@ -132,6 +147,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.menuStrip1);
+            this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "IndexForm";

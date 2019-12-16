@@ -34,7 +34,7 @@ namespace WindowsFormsApplication1
             var topic = this.txtTopic.Text;
             var type = this.txtType.Text;
             this.Business.AddBook(namebook, author, nameuser, topic, type);
-            MessageBox.Show("Create student successfully");
+            MessageBox.Show("Create book successfully");
             this.Close();
         }
 

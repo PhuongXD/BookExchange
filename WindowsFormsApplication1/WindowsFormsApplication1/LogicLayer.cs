@@ -32,7 +32,7 @@ namespace WindowsFormsApplication1
             book.NameUser= nameuser;
             book.Topic = topic;
             book.TypeExchange = type;
-            //book.id = id;
+
 
             var db = new bookEntities();
             db.Books.Add(book);
@@ -58,12 +58,6 @@ namespace WindowsFormsApplication1
 
             db.Books.Remove(book);
             db.SaveChanges();
-        }
-
-        public User[] GetClasses()
-        {
-            var db = new bookEntities();
-            return db.Users.ToArray();
         }
     }
 }

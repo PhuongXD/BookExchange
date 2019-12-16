@@ -20,7 +20,5 @@ namespace WindowsFormsApplication1
         public string NameUser { get; set; }
         public string Topic { get; set; }
         public string TypeExchange { get; set; }
-    
-        public virtual User User { get; set; }
     }
 }

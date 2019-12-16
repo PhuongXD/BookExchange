@@ -110,9 +110,6 @@
     <Compile Include="UpdateBookForm.Designer.cs">
       <DependentUpon>UpdateBookForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="User.cs">
-      <DependentUpon>ModelBE.tt</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
     </EmbeddedResource>
