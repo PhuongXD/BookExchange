@@ -36,7 +36,7 @@ namespace WindowsFormsApplication1
             var topic = this.txtTopic.Text;
             var type = this.txtType.Text;
             this.Business.UpdateBook(this.BookId, namebook, author, topic, type);
-            MessageBox.Show("Update student successfuly");
+            MessageBox.Show("Update Book successfuly");
             this.Close();
 
         }

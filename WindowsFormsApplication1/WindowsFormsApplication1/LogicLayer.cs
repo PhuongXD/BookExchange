@@ -11,6 +11,7 @@ namespace WindowsFormsApplication1
 {
     public class LogicLayer
     {
+        
         public Book[] GetBooks()
         {
             var db = new bookEntities();
