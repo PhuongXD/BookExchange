@@ -84,8 +84,5 @@ namespace WindowsFormsApplication1
             var book = this.Business.GetBooks();
             this.grdBook.DataSource = book;
         }
-
-        
- 
     }
 }

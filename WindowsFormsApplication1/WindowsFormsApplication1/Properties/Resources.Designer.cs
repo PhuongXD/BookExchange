@@ -63,6 +63,36 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0e0cc5ff76633ba49fe9e9beae377d78 {
+            get {
+                object obj = ResourceManager.GetObject("0e0cc5ff76633ba49fe9e9beae377d78", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2 {
+            get {
+                object obj = ResourceManager.GetObject("2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _347a7e7f01cca81a8693a70e537f7cb8 {
+            get {
+                object obj = ResourceManager.GetObject("347a7e7f01cca81a8693a70e537f7cb8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4e9d3798527f4a699a44a8c7b8575da9 {
             get {
                 object obj = ResourceManager.GetObject("4e9d3798527f4a699a44a8c7b8575da9", resourceCulture);
@@ -96,6 +126,16 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.Drawing.Bitmap b18c90d73e9af17b4380e251c3f42f36 {
             get {
                 object obj = ResourceManager.GetObject("b18c90d73e9af17b4380e251c3f42f36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book1 {
+            get {
+                object obj = ResourceManager.GetObject("book1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
