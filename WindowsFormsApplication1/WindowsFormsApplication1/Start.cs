@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
 
         void button1_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+            this.Hide();
             IndexForm StartForm = new IndexForm();
             StartForm.Show(); 
         }
