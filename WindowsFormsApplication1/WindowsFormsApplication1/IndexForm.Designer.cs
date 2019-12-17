@@ -44,10 +44,9 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(110, 64);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSearch.Location = new System.Drawing.Point(82, 52);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(588, 22);
+            this.txtSearch.Size = new System.Drawing.Size(442, 20);
             this.txtSearch.TabIndex = 0;
             // 
             // btnSearch
@@ -55,10 +54,9 @@
             this.btnSearch.BackColor = System.Drawing.Color.Gold;
             this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btnSearch.Location = new System.Drawing.Point(723, 53);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSearch.Location = new System.Drawing.Point(542, 43);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(94, 44);
+            this.btnSearch.Size = new System.Drawing.Size(70, 36);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
@@ -73,21 +71,20 @@
             this.btnDelete});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(847, 26);
+            this.menuStrip1.Size = new System.Drawing.Size(635, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // btnAdd
             // 
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(97, 22);
+            this.btnAdd.Size = new System.Drawing.Size(83, 20);
             this.btnAdd.Text = "Add Book";
             // 
             // btnDelete
             // 
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 22);
+            this.btnDelete.Size = new System.Drawing.Size(63, 20);
             this.btnDelete.Text = "Delete";
             // 
             // grdBook
@@ -99,12 +96,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grdBook.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grdBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdBook.Location = new System.Drawing.Point(0, 197);
-            this.grdBook.Margin = new System.Windows.Forms.Padding(4);
+            this.grdBook.Location = new System.Drawing.Point(0, 137);
             this.grdBook.Name = "grdBook";
             this.grdBook.ReadOnly = true;
             this.grdBook.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdBook.Size = new System.Drawing.Size(847, 204);
+            this.grdBook.Size = new System.Drawing.Size(635, 240);
             this.grdBook.TabIndex = 5;
             // 
             // pictureBox1
@@ -113,34 +109,32 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(34, 43);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 35);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(68, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(51, 50);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Plum;
-            this.btnBack.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Maroon;
-            this.btnBack.Location = new System.Drawing.Point(13, 153);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Location = new System.Drawing.Point(12, 102);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(106, 36);
+            this.btnBack.Size = new System.Drawing.Size(83, 29);
             this.btnBack.TabIndex = 6;
-            this.btnBack.Text = "Back";
+            this.btnBack.Text = "Show All";
             this.btnBack.UseVisualStyleBackColor = false;
             // 
             // IndexForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.jjjjjjjjjjjj;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(847, 405);
+            this.ClientSize = new System.Drawing.Size(635, 377);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.grdBook);
             this.Controls.Add(this.pictureBox1);
@@ -148,10 +142,11 @@
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "IndexForm";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "BookExchange";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdBook)).EndInit();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 23);
+            this.label1.Size = new System.Drawing.Size(79, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name Book";
             // 
@@ -56,7 +57,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(44, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 23);
+            this.label2.Size = new System.Drawing.Size(50, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Author";
             // 
@@ -65,7 +66,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(18, 177);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 23);
+            this.label3.Size = new System.Drawing.Size(75, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Name User";
             // 
@@ -74,7 +75,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(53, 255);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 23);
+            this.label4.Size = new System.Drawing.Size(44, 19);
             this.label4.TabIndex = 3;
             this.label4.Text = "Topic";
             // 
@@ -83,7 +84,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 333);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 23);
+            this.label5.Size = new System.Drawing.Size(98, 19);
             this.label5.TabIndex = 4;
             this.label5.Text = "Type Exchange";
             // 
@@ -94,7 +95,7 @@
             this.txtNamebook.Location = new System.Drawing.Point(152, 28);
             this.txtNamebook.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNamebook.Name = "txtNamebook";
-            this.txtNamebook.Size = new System.Drawing.Size(376, 27);
+            this.txtNamebook.Size = new System.Drawing.Size(376, 23);
             this.txtNamebook.TabIndex = 5;
             // 
             // txtNameuser
@@ -104,7 +105,7 @@
             this.txtNameuser.Location = new System.Drawing.Point(152, 170);
             this.txtNameuser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNameuser.Name = "txtNameuser";
-            this.txtNameuser.Size = new System.Drawing.Size(376, 27);
+            this.txtNameuser.Size = new System.Drawing.Size(376, 23);
             this.txtNameuser.TabIndex = 8;
             // 
             // txtAuthor
@@ -114,7 +115,7 @@
             this.txtAuthor.Location = new System.Drawing.Point(152, 98);
             this.txtAuthor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAuthor.Name = "txtAuthor";
-            this.txtAuthor.Size = new System.Drawing.Size(376, 27);
+            this.txtAuthor.Size = new System.Drawing.Size(376, 23);
             this.txtAuthor.TabIndex = 9;
             // 
             // btnSave
@@ -150,7 +151,7 @@
             this.txtType.Location = new System.Drawing.Point(152, 329);
             this.txtType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtType.Name = "txtType";
-            this.txtType.Size = new System.Drawing.Size(376, 27);
+            this.txtType.Size = new System.Drawing.Size(376, 23);
             this.txtType.TabIndex = 14;
             // 
             // txtTopic
@@ -160,12 +161,12 @@
             this.txtTopic.Location = new System.Drawing.Point(152, 251);
             this.txtTopic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTopic.Name = "txtTopic";
-            this.txtTopic.Size = new System.Drawing.Size(376, 27);
+            this.txtTopic.Size = new System.Drawing.Size(376, 23);
             this.txtTopic.TabIndex = 15;
             // 
             // AddForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.tumblr_ofm3pzxPN81t6limbo2_540;
@@ -186,8 +187,10 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Buxton Sketch", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddForm";
             this.ResumeLayout(false);
             this.PerformLayout();

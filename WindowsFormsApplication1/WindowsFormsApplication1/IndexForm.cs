@@ -66,7 +66,7 @@ namespace WindowsFormsApplication1
             var results = new List<Book>();
             foreach (var b in AllBooks)
             {
-                if (b.NameBook.Contains(this.txtSearch.Text))
+                if (b.NameBook.ToLower().Contains(this.txtSearch.Text))
                 {
                     results.Add(b);
                 }
